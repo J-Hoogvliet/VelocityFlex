@@ -1,0 +1,99 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+body{
+    margin: 0;
+}
+
+#hero {
+    background-color: #F1F5F8;
+}
+.navbar-logo {
+    background-color: #F1F5F8;
+}
+.navbar-item:hover {
+    background-color: #F1F5F8 !important;
+}
+.navbar-item{
+    background-color: #F1F5F8;
+}
+.has-text-light-blue {
+    color: #51879F !important;
+}
+.has-text-light-blue:hover {
+    background-color: #51879F !important;
+    color: #F1F5F8 !important;
+}
+.is-active {
+    color: #F1F5F8 !important;
+    background-color: #51879F !important;
+}
+
+.home-background {
+    background-image: url(../images/peyman-shojaei-us51mNdqaPk-unsplash.jpg) !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100vw;
+height: 70vh;
+}
+.hero-body p {
+    color: #F1F5F8 !important;
+}
+
+.apparel-header {
+    background-image: url(../images/moises-alex-WqI-PbYugn4-unsplash.jpg) !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100vw;
+    height: 70vh;
+}
+.gear-header {
+    background-image: url(../images/oliver-sjostrom-sZKLku0YnFM-unsplash.jpg) !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100vw;
+    height: 70vh;
+}
+.footwear-header {
+    background-image: url(../images/john-fornander-4R9CcBdQTEg-unsplash.jpg) !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100vw;
+        height: 70vh;
+}
+
+
+.column {
+    background-color: #1B2C36 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 5.5vw;
+    color: #F1F5F8;
+}
+.column img {
+    max-width:40vw;
+    height: 40vh;
+    object-fit: contain;
+    border-radius: 5vw;
+}
+.columns {
+    margin-left: 5vw;
+    width: 90vw;
+    margin-top: 1vh;
+    gap: 1vh;
+   padding-bottom: 2.8vh;
+}
+.between-collum {
+    background-color: #F1F5F8 !important;
+}
+.text-low {
+   padding: 5vh 10vw 5vh 10vw;
+}
+
+
+footer {
+    background-color: #51879F !important;
+}
+footer a {
+    color: #F1F5F8;
+    text-decoration: none;
+}
